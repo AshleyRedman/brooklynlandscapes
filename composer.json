@@ -1,0 +1,27 @@
+{
+    "name": "dalestudiosltd/digital-studio",
+    "license": "MIT",
+    "type": "wordpress-theme",
+    "description": "Dale Studios WordPress Starter Theme",
+    "authors": [
+        {
+            "name": "Ashley Redman",
+            "email": "ash.redman@dalestudios.co.uk",
+            "homepage": "https://dalestudios.co.uk"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "composer",
+        "wp",
+        "timber",
+        "theme",
+        "twig",
+        "mvc"
+    ],
+    "require": {
+        "composer/installers": "^1.0",
+        "timber/timber": "^1.16",
+        "hellonico/timber-dump-extension": "^1.0"
+    }
+}

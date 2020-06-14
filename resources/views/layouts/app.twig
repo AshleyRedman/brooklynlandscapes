@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include "layouts/_head.twig" %}
+	<body class="{{ body_class }}">
+		<main id="app">
+			{% block content %}
+				<p>Sorry, no content</p>
+			{% endblock %}
+		</main>
+
+		{{ function('wp_footer') }}
+	</body>
+</html>

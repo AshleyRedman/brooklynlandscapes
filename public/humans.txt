@@ -1,0 +1,9 @@
+## Team
+
+Dale Studios (Leicester) Ltd
+https://dalestudios.co.uk
+@dalestudios
+
+## Site
+
+Software: Built with [Timber](http://upstatement.com/timber) by Dale Studios Ltd

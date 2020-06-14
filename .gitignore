@@ -1,0 +1,26 @@
+# Ignore macos generated file
+.DS_Store
+
+# Package manager dependencies
+vendor
+node_modules
+
+# Editor config & cache
+.idea
+.vscode
+
+# Ignore compiled css
+public/css/*
+!public/css/.gitkeep
+
+# Ignore compiled js
+public/js/*.js
+!public/js/.gitkeep
+
+# Ignore project specific fonts
+public/fonts/*
+!public/fonts/.gitkeep
+
+# Ignore project specific images
+public/images/*
+!public/images/.gitkeep

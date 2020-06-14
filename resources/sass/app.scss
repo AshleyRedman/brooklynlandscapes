@@ -1,0 +1,27 @@
+/*
+    Application Style Sheet
+
+    We use tailwindcss as our style & design system, please refer to the docs link below for more details.
+    Tailwind must first apply its base styling. Use the below examples & order to locate the best location for any
+    custom styling, however 99.99% of the time, tailwind utilities *should* be used.
+
+    When the production run of this is triggered, the css purge will only run on the @tailwind utilities.
+
+    docs: https://tailwindcss.com/docs
+*/
+
+@tailwind base;
+
+/* Project Base Styles Here */
+@import './accessibility/motion';
+@import './base/print';
+
+@tailwind components;
+
+/* Project Component Styles Here */
+// @import './components/button'; <- Example
+
+@tailwind utilities;
+
+/* Project Untility Styles Here */
+// @import './utilities/shadows'; <- Example
